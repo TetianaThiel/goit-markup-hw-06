@@ -3,7 +3,7 @@
   --title-text-color: #757575;
   --accent-text-color: #2196f3;
   --primary-white-color: #ffffff;
-  --seconr-color: #f6eaea;
+  --second-color: #f6eaea;
   --second-color: #101010;
   --bth-color: #2196f3;
   --main-color: #e5e5e5;
@@ -61,10 +61,10 @@ button {
   color: var(--accent-text-color);
 }
 
-.contakt-link .contact-item-icon.current,
-.contakt-link .contact-item-icon:active,
-.contakt-link .contact-item-icon:hover,
-.contakt-link .contact-item-icon:focus {
+.contact-link .contact-item-icon.current,
+.contact-link .contact-item-icon:active,
+.contact-link .contact-item-icon:hover,
+.contact-link .contact-item-icon:focus {
   color: var(--accent-text-color);
 }
 
@@ -185,8 +185,8 @@ button {
   background-size: contain;
 }
 
-.contakt-link:hover,
-.contakt-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #2196F3;
 }
 
@@ -216,7 +216,7 @@ button {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Imgbg-fon.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon.jpg);
   background-repeat: no-repeat;
   text-align: center;
   background-size: cover;
@@ -670,7 +670,7 @@ button {
   color: var(--primary-white-color);
 }
 
-.footer-addres {
+.footer-address {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -892,7 +892,7 @@ button {
   margin-bottom: 10px;
 }
 
-.modal-field-coment {
+.modal-field-comm£ent {
   margin-bottom: 20px;
 }
 
